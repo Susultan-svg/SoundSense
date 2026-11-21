@@ -1,0 +1,6 @@
+,clapping,clock_alarm,dog,door_wood_knock,rain
+clapping,37,0,2,0,1
+clock_alarm,2,37,0,0,1
+dog,0,1,35,4,0
+door_wood_knock,0,0,1,39,0
+rain,2,0,0,0,38

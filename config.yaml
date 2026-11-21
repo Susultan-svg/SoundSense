@@ -1,0 +1,23 @@
+seed: 42
+preprocessing:
+  sample_rate: 16000
+  duration: 5.0
+  remove_dc: true
+  normalize: true
+  filter:
+    enabled: false
+    kind: lowpass
+    cutoffs: [4000.0]
+    order: 100
+    window: hamming
+    beta: 8.6
+features:
+  window: hann
+  window_length: 512
+  n_fft: 512
+  hop_length: 256
+  beta: 8.6
+  groups: [spectral, temporal, mfcc]
+  n_mfcc: 13
+  n_mels: 40
+  rolloff: 0.85

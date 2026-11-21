@@ -1,0 +1,45 @@
+{
+  "clapping": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 40.0
+  },
+  "clock_alarm": {
+    "precision": 0.9487179487179487,
+    "recall": 0.925,
+    "f1-score": 0.9367088607594937,
+    "support": 40.0
+  },
+  "dog": {
+    "precision": 0.9210526315789473,
+    "recall": 0.875,
+    "f1-score": 0.8974358974358975,
+    "support": 40.0
+  },
+  "door_wood_knock": {
+    "precision": 0.9069767441860465,
+    "recall": 0.975,
+    "f1-score": 0.9397590361445783,
+    "support": 40.0
+  },
+  "rain": {
+    "precision": 0.95,
+    "recall": 0.95,
+    "f1-score": 0.95,
+    "support": 40.0
+  },
+  "accuracy": 0.925,
+  "macro avg": {
+    "precision": 0.9253494648965885,
+    "recall": 0.925,
+    "f1-score": 0.9247807588679938,
+    "support": 200.0
+  },
+  "weighted avg": {
+    "precision": 0.9253494648965885,
+    "recall": 0.925,
+    "f1-score": 0.9247807588679939,
+    "support": 200.0
+  }
+}

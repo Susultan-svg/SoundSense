@@ -1,0 +1,50 @@
+{
+  "config": {
+    "seed": 42,
+    "preprocessing": {
+      "sample_rate": 16000,
+      "duration": 5.0,
+      "remove_dc": true,
+      "normalize": true,
+      "filter": {
+        "enabled": false,
+        "kind": "lowpass",
+        "cutoffs": [
+          4000.0
+        ],
+        "order": 100,
+        "window": "hamming",
+        "beta": 8.6
+      }
+    },
+    "features": {
+      "window": "hann",
+      "window_length": 512,
+      "n_fft": 4096,
+      "hop_length": 256,
+      "beta": 8.6,
+      "groups": [
+        "spectral",
+        "temporal",
+        "mfcc"
+      ],
+      "n_mfcc": 13,
+      "n_mels": 40,
+      "rolloff": 0.85
+    }
+  },
+  "model_spec": {
+    "algorithm": "svm",
+    "k": 5,
+    "kernel": "rbf",
+    "C": 1.0,
+    "gamma": "scale",
+    "degree": 3
+  },
+  "nested": false,
+  "dataset_fingerprint": "b58137b05c5c3bb508d2868d46e405c4a22522f96eb5f0fb0fe139acb41c7e99",
+  "samples": 200,
+  "perturbed_test": false,
+  "timing_scope": "fit/search and predict only; feature extraction excluded",
+  "std_ddof": 0
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "outer_fold": 1,
+    "parameters": {
+      "classifier__C": 10.0,
+      "classifier__gamma": "scale",
+      "classifier__kernel": "rbf"
+    }
+  },
+  {
+    "outer_fold": 2,
+    "parameters": {
+      "classifier__C": 0.1,
+      "classifier__kernel": "linear"
+    }
+  },
+  {
+    "outer_fold": 3,
+    "parameters": {
+      "classifier__C": 10.0,
+      "classifier__gamma": "scale",
+      "classifier__kernel": "rbf"
+    }
+  },
+  {
+    "outer_fold": 4,
+    "parameters": {
+      "classifier__C": 10.0,
+      "classifier__gamma": "scale",
+      "classifier__kernel": "rbf"
+    }
+  },
+  {
+    "outer_fold": 5,
+    "parameters": {
+      "classifier__C": 1.0,
+      "classifier__kernel": "linear"
+    }
+  }
+]

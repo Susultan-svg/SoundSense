@@ -1,0 +1,1 @@
+Largest observed macro F1: mfcc / svm = 0.930163. Exploratory comparison on shared outer folds; no independent post-selection performance claim.
